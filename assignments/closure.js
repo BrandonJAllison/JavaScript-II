@@ -1,17 +1,20 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
-function showName (firstName, lastName) {
-  var nameIntro = "Your name is";
-      
-  function makeFullName () {       
-  return (`${nameIntro} ${firstName} ${lastName}`);   
-  };
+function numberCreator() {
   
-  return makeFullName ();
-};
-  
-  console.log(showName ("Brandon", "Allison"));
+  var num = 1;
+
+  function checkNumber() { 
+
+    console.log(num);
+  }
+  num++;
+  return checkNumber;
+}
+
+var number = numberCreator();
+number(); 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
