@@ -96,6 +96,9 @@ function contains(item, list, cb) {
   contains('dog', items, (confirm) => {
   console.log(confirm);
 });
+  contains('dog', newItems, (confirm) => {
+  console.log(confirm);
+});
 
 
 
