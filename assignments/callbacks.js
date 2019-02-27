@@ -1,6 +1,7 @@
 // Create a higher order function and invoke the callback function to test your work. You have been provided an example of a problem and a solution to see how this works with our items array.  Study both the problem and the solution to figure out the rest of the problems.
 
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum', 'Pens'];
+const newItems = ['dog', 'cat', 'yo-yo', 'orange', 'tree'];
 
 /* 
 
@@ -45,6 +46,10 @@ last(items, (lastItem) => {
   console.log(lastItem);
 });
 
+last(newItems, (lastItem) => {
+  console.log(lastItem);
+});
+
 
 //************************************************* */
 //Add numbers callback
@@ -72,6 +77,8 @@ multiplyNums(10,10, (mSum) => {
   console.log(mSum);
 });
 
+
+
 /**************************************************** */
 //Check if item is in list callback
 
@@ -86,7 +93,7 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
 };
 
-  contains('Pencil', items, (confirm) => {
+  contains('dog', items, (confirm) => {
   console.log(confirm);
 });
 
