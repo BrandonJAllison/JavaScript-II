@@ -14,7 +14,7 @@ const runners = [{"id":1,"first_name":"Charmain","last_name":"Seiler","email":"c
 {"id":9,"first_name":"Sarina","last_name":"Lasham","email":"slasham8@toplist.cz","shirt_size":"XL","company_name":"Gigashots","donation":110},
 {"id":10,"first_name":"Bertie","last_name":"Lonergan","email":"blonergan9@issuu.com","shirt_size":"3XL","company_name":"Skinte","donation":62},
 {"id":11,"first_name":"Trevor","last_name":"Studd","email":"tstudda@networkadvertising.org","shirt_size":"S","company_name":"Cogidoo","donation":76},
-{"id":12,"first_name":"Malachi","last_name":"Okeshott","email":"mokeshottb@chron.com","shirt_size":"M","company_name":"DabZ","donation":91},
+{"id":12,"first_name":"Malachi","last_name":"Okeshott","email":"mokeshottb@chron.com","shirt_size":"M","company_name":"DabZ","donation":91}, 
 {"id":13,"first_name":"Berget","last_name":"Logsdail","email":"blogsdailc@wix.com","shirt_size":"M","company_name":"Mymm","donation":9},
 {"id":14,"first_name":"Loise","last_name":"Rivlin","email":"lrivlind@behance.net","shirt_size":"2XL","company_name":"Linktype","donation":204},
 {"id":15,"first_name":"Christan","last_name":"Kendall","email":"ckendalle@example.com","shirt_size":"XS","company_name":"Skinix","donation":252},
